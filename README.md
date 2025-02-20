@@ -27,6 +27,6 @@ This project analyzes **retail cannabis sales trends**, comparing **Adult Use vs
 ✅ **Data Modifications & Updates**  
 
 ## 📌 Visualizations & Insights
-Coming soon! 🚀  
+Coming soon!   
 
 ---
