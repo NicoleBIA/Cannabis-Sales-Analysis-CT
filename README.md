@@ -21,6 +21,7 @@ This project analyzes **retail cannabis sales trends**, comparing **Adult Use vs
 
 ## 📌 SQL Queries & Analysis
 📂 [View SQL Queries](SQL_Queries.md) – Contains detailed queries for:
+
 ✅ **Exploratory Data Analysis (EDA)**  
 ✅ **Schema & Table Structure Checks**  
 ✅ **Data Modifications & Updates**  
