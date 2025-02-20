@@ -1,4 +1,4 @@
-# 📊 Cannabis Sales Analysis (2024) 🚀
+# 📊 Cannabis Sales Analysis (2024) 
 
 ## 📌 Project Overview
 This project analyzes **retail cannabis sales trends**, comparing **Adult Use vs. Medical markets**, and identifying **top-performing product categories** using SQL.
