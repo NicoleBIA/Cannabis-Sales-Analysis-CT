@@ -26,6 +26,16 @@ This project analyzes **retail cannabis sales trends**, comparing **Adult Use vs
 ✅ **Schema & Table Structure Checks**  
 ✅ **Data Modifications & Updates**  
 
+## 📌 Data Source & Citation
+This dataset was sourced from the **Connecticut Open Data Portal (data.ct.gov)**.
+
+- **Dataset Name:** Cannabis Retail Products Sold by Product Type  
+- **Publisher:** [data.ct.gov](https://data.ct.gov/)  
+- **Metadata Updated:** February 12, 2025  
+- **Access & Use:** Publicly available for analysis under non-federal terms of use.  
+
+📌 **Source Link:** [Connecticut Cannabis Sales Data](https://data.ct.gov/api/views/jyg4-yu7v)
+
 ## 📌 Visualizations & Insights
 Coming soon!   
 
