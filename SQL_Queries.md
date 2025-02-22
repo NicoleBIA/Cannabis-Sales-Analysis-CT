@@ -8,16 +8,16 @@ VALUES
 
 -- ✅ Validation Queries
 
--- 📌 Check total sales
+--  Check total sales
 SELECT SUM(RetailSalesAmount) AS TotalSales FROM dbo.CannabisSales;
 
--- 📌 Ensure all distinct product types were inserted correctly
+--  Ensure all distinct product types were inserted correctly
 SELECT DISTINCT ProductType FROM dbo.CannabisSales;
 
--- 📌 Check row count after insertion
+--  Check row count after insertion
 SELECT COUNT(*) AS TotalRows FROM dbo.CannabisSales;
 
--- 📌 Validate that all products have been assigned a CategoryID
+--  Validate that all products have been assigned a CategoryID
 SELECT * FROM dbo.CannabisSales WHERE CategoryID IS NULL;
 
 🛠 **Debugging Notes:**
@@ -26,7 +26,7 @@ SELECT * FROM dbo.CannabisSales WHERE CategoryID IS NULL;
 - Missing `CategoryID` values were identified using `SELECT * FROM dbo.CannabisSales WHERE CategoryID IS NULL;`, resolved with `UPDATE` queries.
 - Queries were **cross-verified using Excel comparisons** before final validation.
 
-### **📌 Next Steps**
+### ** Next Steps**
 1️⃣ **Perform deeper sales analysis by Market Type (Adult Use vs. Medical).**  
 2️⃣ **Break down sales trends over time.**  
 3️⃣ **Analyze total revenue and product performance per category (`analysis_queries.sql`).**  
