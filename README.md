@@ -14,10 +14,32 @@ This project analyzes **retail cannabis sales trends**, comparing **Adult Use vs
 🔹 **How do Medical vs. Adult Use markets compare?**  
 🔹 **Are there seasonal patterns in cannabis sales?**  
 
+# 📂 Data Preparation & Insertion  
+
+### ✅ Data Insertion Overview
+- The dataset was cleaned and inserted into **`dbo.CannabisSales`** using SQL.
+- **Fixes Implemented:**
+  - 🛠 Reformatted `MonthEnding` to **YYYY-MM-DD**.
+  - 🛠 Standardized long `ProductType` names (e.g., **"Other Non-Smokeable"**).
+    
+ **Validation Queries Executed:**
+  -  **Total Sales Check** ✅
+  -  **Product Type Validation** ✅
+  -  **Row Count Confirmation** ✅
+
+**Full SQL scripts are stored in the `/SQL/` folder.**
+
+## 📊 Data Analysis & Insights
+(Analysis queries, dashboards, findings, etc.)
+
+## 📌 Next Steps
+(What future improvements or expansions are planned?)
+
 ## 📌 Tools & Technologies
 - **SQL (Microsoft SQL Server)**
 - **Power BI / Tableau**
-- **Excel (Data Cleaning & Pivot Tables)**  
+- **Excel (Data Cleaning & Pivot Tables)**
+- **AI-Assisted Python Scripts (used for transforming & preparing a large dataset, not manually written) **  
 
 ## 📌 SQL Queries & Analysis
 📂 [View SQL Queries](SQL_Queries.md) – Contains detailed queries for:
