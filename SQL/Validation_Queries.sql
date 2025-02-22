@@ -1,4 +1,4 @@
--- 📌 Validation Queries for Data Integrity
+--  Validation Queries for Data Integrity
 
 -- ✅ Check total sales amount
 SELECT SUM(RetailSalesAmount) AS TotalSales FROM dbo.CannabisSales;
@@ -9,7 +9,10 @@ SELECT DISTINCT ProductType FROM dbo.CannabisSales;
 -- ✅ Check total row count after insertion
 SELECT COUNT(*) AS TotalRows FROM dbo.CannabisSales;
 
--- 📌 data_validation_queries.sql --
+--  data_validation_queries.sql --
+
+-- ✅ Purpose: Validates data accuracy and integrity in the CannabisSales table.
+-- ✅ Why It Matters: Ensures all inserted and updated data aligns with expectations.
 
 -- Check total sales
 SELECT SUM(RetailSalesAmount) AS TotalSales FROM dbo.CannabisSales;
