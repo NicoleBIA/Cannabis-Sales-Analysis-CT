@@ -1,5 +1,3 @@
-## 📂 Data Insertion & Validation Queries
-```sql
 INSERT INTO dbo.CannabisSales (MonthEnding, ProductType, RetailSalesAmount, Market)
 VALUES
 ('2025-01-25', 'Usable Cannabis (Flower)', 2819150.84, 'Adult Use'),
@@ -8,24 +6,31 @@ VALUES
 ('2025-01-25', 'Extract for Inhalation', 868829.67, 'Adult Use'),
 ('2025-01-25', 'Other Non-Smokeable', 4343508.44, 'Medical');
 
-Validation Query: Check total sales
+-- ✅ Validation Queries
+
+-- 📌 Check total sales
 SELECT SUM(RetailSalesAmount) AS TotalSales FROM dbo.CannabisSales;
 
-Validation Query: Ensure all distinct product types were inserted correctly
+-- 📌 Ensure all distinct product types were inserted correctly
 SELECT DISTINCT ProductType FROM dbo.CannabisSales;
 
-Validation Query: Check row count after insertion
+-- 📌 Check row count after insertion
 SELECT COUNT(*) AS TotalRows FROM dbo.CannabisSales;
 
-🛠 Debugging Notes:
-MonthEnding was originally formatted as "25-Jan" and was changed to YYYY-MM-DD.
-The ProductType column caused truncation errors; we renamed long values to "Other Non-Smokeable".
-Insert script was re-run successfully after cleaning.
-Queries were cross-verified using Excel comparisons before final validation.
+-- 📌 Validate that all products have been assigned a CategoryID
+SELECT * FROM dbo.CannabisSales WHERE CategoryID IS NULL;
 
-Next Steps:
-Perform deeper sales analysis by Market Type (Adult Use vs. Medical).
-Break down sales trends over time.
-Store additional analysis queries in analysis_queries.sql inside /SQL/ folder.
+🛠 **Debugging Notes:**
+- `MonthEnding` was originally formatted as `"25-Jan"` and was standardized to `YYYY-MM-DD`.
+- The `ProductType` column was **standardized and mapped** to the `ProductCategory` table.
+- Missing `CategoryID` values were identified using `SELECT * FROM dbo.CannabisSales WHERE CategoryID IS NULL;`, resolved with `UPDATE` queries.
+- Queries were **cross-verified using Excel comparisons** before final validation.
 
-For full documentation of SQL scripts, see the /SQL/ folder in the repository.
+### **📌 Next Steps**
+1️⃣ **Perform deeper sales analysis by Market Type (Adult Use vs. Medical).**  
+2️⃣ **Break down sales trends over time.**  
+3️⃣ **Analyze total revenue and product performance per category (`analysis_queries.sql`).**  
+4️⃣ **Prepare data for visualization in Power BI and Tableau.**  
+
+For **full documentation of SQL scripts**, see the `/SQL/` folder in the repository.
+
