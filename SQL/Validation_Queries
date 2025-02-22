@@ -1,0 +1,10 @@
+-- 📌 Validation Queries for Data Integrity
+
+-- ✅ Check total sales amount
+SELECT SUM(RetailSalesAmount) AS TotalSales FROM dbo.CannabisSales;
+
+-- ✅ Ensure all distinct product types were inserted correctly
+SELECT DISTINCT ProductType FROM dbo.CannabisSales;
+
+-- ✅ Check total row count after insertion
+SELECT COUNT(*) AS TotalRows FROM dbo.CannabisSales;
