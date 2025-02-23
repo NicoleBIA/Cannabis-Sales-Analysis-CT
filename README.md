@@ -4,9 +4,13 @@
 Project Type: Business Intelligence & Data Analysis
 Tools Used: SQL Server, Excel, Tableau Public
 Key Focus Areas:
+
 ✔ Data Transformation (Cleaning, structuring, and refining datasets for analysis)
+
 ✔ Multi-Year Sales Trends (Rolling cumulative sales analysis across multiple years)
+
 ✔ Market Segmentation (Comparing Adult Use vs. Medical Market trends)
+
 ✔ Product Analysis (Evaluating product category performance and revenue impact)
 
 ## 📌 Project Overview
