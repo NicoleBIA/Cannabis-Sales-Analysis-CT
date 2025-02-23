@@ -30,7 +30,7 @@ This project analyzes **retail cannabis sales trends**, comparing **Adult Use vs
 🔹 **How do Medical vs. Adult Use markets compare?**  
 🔹 **Are there seasonal patterns in cannabis sales?**  
 
-# 📂 Data Preparation & Insertion  
+#  Data Preparation & Insertion  
 
 ### ✅ Data Insertion Overview
 - The dataset was cleaned and inserted into **`dbo.CannabisSales`** using SQL.
