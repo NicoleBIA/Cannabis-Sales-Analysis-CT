@@ -27,6 +27,7 @@ At this time, further development of this project is paused. If revisited, futur
 
 📂 **Related Links**
 🔹 [📖 Diary Entry on Project Pivot: Reflections on the Cannabis Sales Analysis Project](https://github.com/NicoleBIA/NicoleBIA.github.io/blob/main/blog/diary/diary-entry-2024-02-22.md)
+
 🔹 [🌐 My GitHub Portfolio: NicoleBIA.github.io](https://nicolebia.github.io/)
 
 ---
