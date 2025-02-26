@@ -1,5 +1,38 @@
 # 📊 Cannabis Sales Analysis (2024) 
 
+---
+## 🚨 Project Status: On Hold 🚨
+This project has been **paused** due to challenges in data structure and reporting clarity. While initial data exploration, SQL queries, and visualization planning were completed, the dataset’s structure prevented reliable month-over-month analysis. Future iterations may revisit this dataset with refined data validation techniques.
+
+📌 **For a deeper reflection on this project and the decision to pivot, read my detailed entry in**  
+➡️ [Diary of an Emerging Analyst: The Reality of Data Quality Issues](../diary/diary-entry-2024-02-22.md)
+---
+
+## 📊 Lessons Learned from the Cannabis Sales Analysis Project
+
+Although this project is currently on hold, I gained several insights into data structuring, reporting, and integrity:
+
+- **🛠️ The Importance of Data Validation**: Understanding how raw datasets are structured is critical before deep analysis.
+- **📅 Challenges with Time-Series Data**: The dataset used a rolling 12-month cumulative reporting style, making it difficult to isolate individual months.
+- **🧹 Data Normalization Considerations**: Attempts to restructure the dataset for clear monthly analysis highlighted limitations in the original data collection.
+- **📉 Visualization as a Quality Check**: Some data inconsistencies only surfaced when creating visualizations, reinforcing the need for exploratory analysis before drawing conclusions.
+
+## ❌ Future Development (On Hold)
+At this time, further development of this project is paused. If revisited, future improvements may include:
+- Accessing a **cleaner dataset** with transparent aggregation rules.
+- Implementing **data normalization techniques** for clearer time-based analysis.
+- Exploring **alternative business insights** that can be drawn from the available data.
+
+---
+
+## 📂 Related Links  
+🔹 **Diary Entry on Project Pivot**: [Reflections on the Cannabis Sales Analysis Project](../diary/diary-entry-2024-02-22.md)  
+🔹 **My GitHub Portfolio**: [NicoleBIA.github.io](https://nicolebia.github.io/)  
+
+---
+
+> **Final Thought:** This project highlights the importance of **data integrity, validation, and structured reporting logic** before analysis. While this dataset presented challenges, the lessons learned strengthen my ability to evaluate and work with real-world data.
+
 📌 Cannabis Sales Analysis - Tableau & SQL
 
 **Project Type:** Business Intelligence & Data Analysis  
