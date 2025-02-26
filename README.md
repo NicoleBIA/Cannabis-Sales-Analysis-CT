@@ -5,6 +5,7 @@
 This project has been **paused** due to challenges in data structure and reporting clarity. While initial data exploration, SQL queries, and visualization planning were completed, the dataset’s structure prevented reliable month-over-month analysis. Future iterations may revisit this dataset with refined data validation techniques.
 
 📌 **For a deeper reflection on this project and the decision to pivot, read my detailed entry in**  
+
 ➡️ [Diary of an Emerging Analyst: The Reality of Data Quality Issues](https://github.com/NicoleBIA/NicoleBIA.github.io/blob/main/blog/diary/diary-entry-2024-02-22.md)
 ---
 
